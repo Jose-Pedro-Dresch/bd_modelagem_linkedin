@@ -54,7 +54,7 @@
           "y": -121.20735054065278
         },
         "data": {
-          "label": "NomeCompleto Usuario",
+          "label": "NomCompUsr",
           "types": {
             "Composite": true
           },
@@ -85,7 +85,7 @@
           "width": 100,
           "height": 50
         },
-        "selected": true,
+        "selected": false,
         "dragging": false
       },
       {
@@ -97,7 +97,7 @@
           "y": -180.70561677005833
         },
         "data": {
-          "label": "EmailUsuario",
+          "label": "EmailUsr",
           "types": [],
           "isSelected": false,
           "isConnectable": false
@@ -118,7 +118,7 @@
           "y": -235.38986521972186
         },
         "data": {
-          "label": "SenhaUsuario",
+          "label": "SenhaUsr",
           "types": [],
           "isSelected": false,
           "isConnectable": false
@@ -139,7 +139,7 @@
           "y": -290.3340404012487
         },
         "data": {
-          "label": "TituloProfUsuario",
+          "label": "TituloProfUsr",
           "types": [],
           "isSelected": false,
           "isConnectable": false
@@ -160,8 +160,10 @@
           "y": -347.3038841938606
         },
         "data": {
-          "label": "LocalizacaoUsuario",
-          "types": [],
+          "label": "LocUsr",
+          "types": {
+            "Composite": true
+          },
           "isSelected": false,
           "isConnectable": false
         },
@@ -309,7 +311,7 @@
           "y": 359.8695670248826
         },
         "data": {
-          "label": "DescricaoAtividade",
+          "label": "DescAtividade",
           "types": {
             "Multivalued": false
           },
@@ -331,7 +333,7 @@
           "y": 74.54115619898522
         },
         "data": {
-          "label": "UsuarioPossuiExp",
+          "label": "UsrPossExp",
           "sourceEntityDetails": {
             "id": "4a6abd36-ff44-4065-be32-be03120a695c",
             "minCardinality": "Mandatory",
@@ -378,11 +380,11 @@
         "parentId": "89bcb948-aef7-4191-8e3c-33abd7b45de6",
         "type": "Attribute",
         "position": {
-          "x": -0.7684375906439982,
-          "y": -61.96749492393564
+          "x": -2.3354319645426926,
+          "y": -56.48301461529025
         },
         "data": {
-          "label": "IDFormacao",
+          "label": "IDForm",
           "types": {
             "Unique": true
           },
@@ -405,7 +407,7 @@
           "y": -111.8996539661438
         },
         "data": {
-          "label": "NomeInstituicao",
+          "label": "NomeInstitForm",
           "types": [],
           "isSelected": false,
           "isConnectable": false
@@ -426,7 +428,7 @@
           "y": -165.21408198846137
         },
         "data": {
-          "label": "GrauFormacao",
+          "label": "GrauForm",
           "types": [],
           "isSelected": false,
           "isConnectable": false
@@ -559,7 +561,7 @@
           "y": 59.85280364117938
         },
         "data": {
-          "label": "IDCompetencia",
+          "label": "IDComp",
           "types": {
             "Unique": true
           },
@@ -582,7 +584,7 @@
           "y": 124.54462933330916
         },
         "data": {
-          "label": "NomeCompetencia",
+          "label": "NomeComp",
           "types": [],
           "isSelected": false,
           "isConnectable": false
@@ -625,7 +627,7 @@
           "y": 197.10597879817428
         },
         "data": {
-          "label": "PossuiComp",
+          "label": "UsrPossComp",
           "sourceEntityDetails": {
             "id": "4a6abd36-ff44-4065-be32-be03120a695c",
             "maxCardinality": "Many",
@@ -759,11 +761,11 @@
         "parentId": "d86ebfa4-ff02-43e0-9c72-7ab6ec228ffa",
         "type": "Attribute",
         "position": {
-          "x": 2.8418080601350084,
-          "y": 276.61779810399446
+          "x": 2.841808060135236,
+          "y": 278.1847924778932
         },
         "data": {
-          "label": "DescricaoGeralEmp",
+          "label": "DescGeralEmp",
           "types": [],
           "isSelected": false,
           "isConnectable": false
@@ -812,7 +814,7 @@
           "y": -3.4006073129418297
         },
         "data": {
-          "label": "NomeUsuario",
+          "label": "NomeUsr",
           "types": [],
           "isSelected": false,
           "isConnectable": false
@@ -833,7 +835,7 @@
           "y": -0.8254699945296551
         },
         "data": {
-          "label": "SobrenomeUsuario",
+          "label": "SobrenmUsr",
           "types": [],
           "isSelected": false,
           "isConnectable": false
@@ -1173,7 +1175,7 @@
           "y": 154.82939921381438
         },
         "data": {
-          "label": "ExpPossuiComp",
+          "label": "ExpPossComp",
           "sourceEntityDetails": {
             "id": "f21a5a0c-4069-44f9-8489-bac1aff6ca27",
             "minCardinality": "Optional",
@@ -1380,8 +1382,8 @@
         "id": "619a4f75-0484-405d-bb18-221b38d07db6",
         "type": "Relationship",
         "position": {
-          "x": 1119.6950814337836,
-          "y": -38.45834391338538
+          "x": 1218.4157269894006,
+          "y": -52.56129327847351
         },
         "data": {
           "label": "UserPublica",
@@ -1847,7 +1849,68 @@
         "measured": {
           "width": 100,
           "height": 50
-        }
+        },
+        "selected": false
+      },
+      {
+        "id": "315fe320-08bf-46d4-a2c2-53b522fbc355",
+        "parentId": "db4dd466-6c37-47da-ac02-f2816fe272a2",
+        "type": "Attribute",
+        "position": {
+          "x": -104.55544641132667,
+          "y": 2.253651480006056
+        },
+        "data": {
+          "label": "CidadeUsr",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "bef77dcd-6f87-4f91-91b6-9b43ec3a214f",
+        "parentId": "db4dd466-6c37-47da-ac02-f2816fe272a2",
+        "type": "Attribute",
+        "position": {
+          "x": -207.04166638523964,
+          "y": 0.6289786312658521
+        },
+        "data": {
+          "label": "EstadoUsr",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "ea5addfd-0a6d-4f90-b91c-1d281633f3ef",
+        "parentId": "db4dd466-6c37-47da-ac02-f2816fe272a2",
+        "type": "Attribute",
+        "position": {
+          "x": -311.633915522915,
+          "y": -0.5656053473903171
+        },
+        "data": {
+          "label": "PaisUsr",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
       }
     ],
     "edges": [
@@ -2549,21 +2612,39 @@
         "type": "Attribute",
         "source": "02614150-ed1d-4eb6-861b-25a4a9fb77bc",
         "target": "7fd6b5d5-01bd-4e9c-84bc-0ef4c3ab501b"
+      },
+      {
+        "id": "39ff6768-e87b-43df-9c5a-708b9a314b27",
+        "type": "Attribute",
+        "source": "db4dd466-6c37-47da-ac02-f2816fe272a2",
+        "target": "315fe320-08bf-46d4-a2c2-53b522fbc355"
+      },
+      {
+        "id": "c286008b-0b20-4eb1-9808-5c7ccb2d2ac6",
+        "type": "Attribute",
+        "source": "db4dd466-6c37-47da-ac02-f2816fe272a2",
+        "target": "bef77dcd-6f87-4f91-91b6-9b43ec3a214f"
+      },
+      {
+        "id": "452f167c-7903-426d-8cb4-4d71b08455b9",
+        "type": "Attribute",
+        "source": "db4dd466-6c37-47da-ac02-f2816fe272a2",
+        "target": "ea5addfd-0a6d-4f90-b91c-1d281633f3ef"
       }
     ],
     "viewport": {
-      "x": -130.6818157578905,
-      "y": 375.7247195921025,
-      "zoom": 0.7937005035983871
+      "x": -546.8212434875554,
+      "y": 764.4681346496258,
+      "zoom": 1.0988542175768796
     }
   },
-  "name": "LinkedIn (1)",
+  "name": "LinkedIn (3)",
   "folder": {
     "name": "Diagrams",
     "folderType": 1,
     "depth": 0,
-    "id": 269157
+    "id": 269155
   },
-  "id": 362277,
-  "updatedAtTimestamp": 1774185535
+  "id": 364525,
+  "updatedAtTimestamp": 1774529300
 }

@@ -1,0 +1,62 @@
+1. Um usuário deve ter um identificador , um nome completo que será composto pelo nome e sobrenome,
+um email, uma senha, um titulo usuário, uma localização e a data de criação do perfil.
+
+2. Uma formação acadêmica tem um identificador, nome da instituição, grau, área de estudo, data início
+e data término. ( NOTE QUE É DATA E NÃO ANO, TROCAR NO MODELO )
+
+3. Um Idioma tem identificador e nome.
+
+4. Uma Competência tem um identificador e um nome.
+
+5. Uma Experiência profissional tem um identificador, um título, um tipo, uma data início, uma data término e uma
+descrição
+
+6. Uma empresa tem um identificador, um Nome, uma ou mais áreas de atuação, um tamanho (qtd empregados) e 
+uma descrição geral.
+
+7. Uma vaga de emprego tem um identificador, um título, um formato do trabalho (remoto, híbrido, presencial), uma
+data de publicação e uma descrição da vaga.
+
+8. Uma publicação (post) tem um identificador, um conteúdo de texto, a data de publicação e o nível de visibilidade.
+
+9. Um comentário tem um identificador, um conteúdo de texto e a data que foi publicado.
+
+10. Um usuário possui nenhuma, uma ou várias formações acadêmicas.
+
+11. Um usuário envia nenhuma, uma ou várias conexões para outros usuários. Essa conexão tem um identificador,
+um status, uma data de envio e uma data que o convite foi aceito (? deveria ser opcional ?)
+
+12. Um usuário fala nenhum, um ou vários idiomas. O usuário tem um nível de proficiência nos idiomas que fala
+
+13. Um usuário tem nenhuma, uma ou muitas competências, e uma competência é tida por nenhum, um ou vários
+usuários.
+
+14. Um usuário possui nenhuma, uma ou várias experiências profissionais, cada experiência é tida
+por exatamente 1 usuário. 
+
+15. Um usuário ou uma empresa faz nenhum, um ou vários comentários, um comentário é de somente um usuário.
+ou somente uma empresa. ( CONSFUSO, MAS QUANDO MUDARMOS O JEITO DE USUÁRIO E EMPRESA VAI FICAR BOM )
+
+16. Um usuário reage a nenhuma, uma ou várias publicações, cada reação tem um tipo ( COLOQUE OS TIPOS ) e uma data. Cada post 
+é reagido por nenhum, um ou vários usuários.
+
+17. Um usuário se candidata a nenhuma, uma ou várias vagas de emprego, uma vaga pode ser candidatada por nenhuma, um ou
+vários usuários.
+
+18. Uma Experiência profissional é em alguma empresa. Uma experiência é em exatamente uma empresa e uma empresa pode
+ter nenhuma, uma ou várias experiências profissionais.
+
+19. Uma empresa oferece nenhuma, uma ou várias vagas de emprego, uma vaga é oferecida por exatamente
+uma empresa.
+
+20. Uma empresa reage a nenhuma, uma ou várias publicações, cada reação tem um tipo ( COLOQUE OS TIPOS ) e uma data.
+cada publicação é reagida por nenhuma, uma ou várias empresas.
+
+21. Um comentário é de exatamente uma publicação. Uma publicação pode ter nenhum, um ou vários comentários.
+
+
+Items para verificar: 
+
+5. O que seria o tamanho da empresa?
+
+16. Não está no modelo ER.
